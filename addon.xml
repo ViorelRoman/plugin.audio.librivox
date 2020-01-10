@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.librivox" name="Librivox Addon" version="0.0.3" provider-name="gnunixon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.xbmcswift2" version="2.4.0" />
+        <import addon="script.module.feedparser" version="5.2.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Allow to search and listen to free audio-books from librivox.org</summary>
+        <description></description>
+        <language></language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website></website>
+        <email>mail@viorel-roman.org</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
